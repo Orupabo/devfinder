@@ -368,6 +368,9 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    .opts>p{
+        font-size: 15px;
+    }
     .downright{
         padding: 0;
         gap: 0;
