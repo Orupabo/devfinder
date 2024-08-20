@@ -11,20 +11,13 @@
     <div class="wrapper">
         <div class="parent">
             <div class="top">
-                <h3>Meet</h3>
-                <!-- <div class="day">
-                    <p>LIGHT</p>
-                    <i class="bi bi-brightness-high-fill" id="sun"></i>
-                </div> -->
-                <!-- <div class="night" id="night">
-                    <p>NIGHT</p>
-                    <i class="bi bi-moon-fill" id="icon"></i>
-                </div> -->
-                <img src="sun.png" alt="" id="icon">
+                <h3>devfinder</h3>
+               
+                <div id="icon"><i class="bi bi-brightness-low-fill"></i></div>
             </div>
             <div class="mid">
                 <i class="bi bi-search"></i>
-                <input type="text" name="" id="" placeholder="Search Meet username...">
+                <input type="text" placeholder="Search Meet username...">
                 <button>Search</button>
             </div>
             <div class="bottom">
@@ -82,16 +75,8 @@
             </div>
         </div>
     </div>
-    <script>
-        let icon = document.getElementById("icon")
-        icon.onclick = function name(params) {
-            document.body.classList.toggle("darktheme");
-            if(document.body.classList.contains("darktheme")){
-                icon.src ="moon.png";
-            }else{
-                icon.src = "sun.png";
-            }
-        }
+    <script src="index.js">
+       
     </script>
     
 </body>
